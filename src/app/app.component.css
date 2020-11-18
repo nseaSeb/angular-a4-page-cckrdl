@@ -1,0 +1,43 @@
+.block {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  background-color: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media print
+{    
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}
+
+  
+/* footer, header - position: fixed */
+
+
+.footer {
+  color: blue;
+  display: flex;
+
+  align-self: flex-end;
+   margin-top: auto;
+
+}
+.header {
+display: flex;
+ align-self: flex-start;
+
+}
+
+
+/* Fix overflow of headers and content */
+body {
+    padding-top: 50px;
+}
+
+
+
